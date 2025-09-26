@@ -8,6 +8,7 @@ This is a simple Node.js application set up with Docker and GitHub Actions for C
 - `docker-compose.yml`: Local development setup (optional)
 
 ## Directory Structure
+```bash
 ci-cd-node-app/
 ├── backend/                  # <- Backend app folder
 │   ├── Dockerfile            # <- Dockerfile for backend app
@@ -18,6 +19,7 @@ ci-cd-node-app/
 │   └── workflows/            # <- GitHub Actions workflows
 │       └── ci.yml            # <- CI/CD pipeline file
 ├── README.md                 # <- Project readme file
+```
 
 
 ## Getting Started
